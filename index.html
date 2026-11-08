@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Alerta Sísmica Local</title>
+  
+  <style>
+    /* Quita los márgenes blancos y oculta las barras de desplazamiento */
+    body { 
+      margin: 0; 
+      padding: 0; 
+      overflow: hidden; 
+      background-color: #0f141e; /* Fondo oscuro base */
+      color: white;
+      font-family: sans-serif;
+    }
+    canvas { 
+      display: block; 
+    }
+  </style>
+
+  <!-- 1. Librería base de p5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  
+  <!-- 2. Librería p5.sound (debe ir después de p5.js) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+
+  <!-- 3. La pieza entregada para los datos externos -->
+  <script src="datos.js"></script>
+
+  <!-- 4. Tu orquestador principal -->
+  <script src="sketch.js"></script>
+
+</head>
+<body>
+  <!-- El lienzo de p5.js se inyectará aquí automáticamente -->
+</body>
+</html>
